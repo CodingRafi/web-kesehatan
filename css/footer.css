@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contact1 {
+    background: #6ECB63;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer2{
+    margin-top: -13vw;
+}
+
+.footer2.hilang7{
+    display: none;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+    color: snow;
+}
+
+h3 {
+    font-family: 'Nonito', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    width: 100%;
+    line-height: 50px;
+}
+
+.footer-section p{
+    font-family: 'Nonito', sans-serif;
+}
+
+#Copyright {
+    font-family: 'Nonito', sans-serif;
+    text-align: center;
+    background: #DDE3Ee;
+    color: #000;
+    width: 100%;
+    padding: 25px 0px 25px 0px;  
+}

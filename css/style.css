@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main1.hilang{
+    display: none;
+}
+
+.main1{
+    display: block;
+}
+
+
+/* color */
+/* #5df19e */
+/* #87f8b8 */
+
+.navbar{
+    background: transparent;
+    width: 100vw;
+    height: 8vh;
+    color: #3E4F3F;
+    position: fixed;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: .4rem;
+    transition: 0.5s;
+    z-index: 999;
+    border: none;
+}
+
+.navbar.scroll{
+    background: #DDE3E1;
+    z-index: 100;
+    border-bottom: 1px solid #3E4F3F;
+}
+
+.bungkus-nav{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding: .3em 0;
+    border-bottom: 1px solid #3E4F3F;
+    transition: 0.5s;
+    margin-right: 8vw;
+}
+
+.navbar.scroll .bungkus-nav{
+    border: none;
+}
+
+.main1{
+    background: #DDE3E1;
+    height: 100vh;
+    width: 100%;
+    z-index: -999;
+}
+
+.brand{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.links{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title{
+    line-height: 8vh;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.ul-navbar{
+    display: flex;
+    line-height: 8vh;
+}
+
+.li-navbar{
+    list-style: none;
+}
+
+
+.ul-navbar .li-navbar .link-navbar{
+    text-decoration: none;
+    margin: 0 1.2rem;
+    font-size: 1rem;
+    color: #3E4F3F;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+.respon{
+    height: 2em;
+    width: 6%;
+    padding-top: 3px;
+    display: none;
+}
+
+.respon-garis{
+    display: block;
+    width: 100%;
+    background: #3E4F3F;
+    height: 0.23em;
+    margin: 6px 0;
+    transition: .3s;
+}
+
+.brand .respon .garis1.active{
+    transform: rotateZ(-135deg);
+    width: 50%;
+    margin-bottom: -3px;
+    margin-left: 2px;
+}
+.brand .respon .garis2.active{
+    transform: rotateZ(135deg);
+    width: 100%;
+}
+.brand .respon .garis3.active{
+    transform: rotateZ(-135deg);
+    width: 50%;
+    margin-top: -4px;
+    margin-left: 14px;
+}
+
+.navbar.active{
+    overflow:visible;
+    border-bottom: 73vw solid #fff;
+}
+
+.navbar.active .ul-navbar .li-navbar .link-navbar{
+    color: black;
+    margin: 0;
+}
+
+@media (max-width:1366px ) {
+    .title{
+        font-size: 1em;
+    }
+
+    .ul-navbar .li-navbar .link-navbar{
+        font-size: .8em;
+    }
+}
+
+@media( min-width:701px ){
+    .navbar.active{
+        overflow:visible;
+        border:none;
+    }
+    
+    .navbar.active .ul-navbar .li-navbar .link-navbar{
+        margin: 0 1.2rem;
+    }
+
+    .navbar.active .bungkus-nav{
+        border-bottom: 1px solid #000000;
+    }
+}
+
+@media (max-width:700px) {
+    .navbar{
+        overflow: hidden;
+        border-bottom: 1px solid #000000;
+    }
+
+    .bungkus-nav{
+        display: block;
+        padding-top: 7px;
+        border: none;
+    }
+
+    .brand{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .links{
+        display: block;
+    }
+
+    .ul-navbar{
+        display: block;
+    }
+
+    .respon{
+        display: block;
+    }
+
+    .navbar.active .respon{
+        margin-top: 2vw;
+    }
+    
+}
+
+@media(max-width:500px){
+    .brand .respon .garis1.active{
+        margin-bottom: -5px;
+        margin-left: 2px;
+    }
+
+    .brand .respon .garis3.active{     
+        margin-top: -5px;
+        margin-left: 10px;
+
+    }
+}
+
+@media(max-width:360px){
+    .brand .respon .garis1.active{
+        margin-bottom: -6px;
+        margin-left: 2px;
+    }
+
+    .brand .respon .garis3.active{     
+        margin-top: -6px;
+        margin-left: 9px;
+    }
+}
+

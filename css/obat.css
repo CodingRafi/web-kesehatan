@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main50.hilang5{
+    display: none;
+}
+
+.main6 {
+    height: 75vh;
+}
+
+.container70-span{
+    font-family: "Nunito", sans-serif;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.container80{
+    margin: auto;
+    width: 85%;
+}
+
+.main6.hilang2{
+    display: none;
+}
+
+.main6 .container61 {
+    padding-top: 7vw;
+    margin: auto;
+}
+
+.container62 {
+    display: flex;
+    height: 25vw;
+}
+
+.main6 .container61 .container61-main-konten .container62 .container63 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container64 {
+    background: url(../img/Card.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-radius: 0.5vw;
+    background-position-y: -30vw;
+}
+
+.container65 {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.container65-h1{
+    font-family: "Nunito", sans-serif;
+    font-size: 3vw;
+    color: #ffff;
+    padding: 1.5vw 2vw;
+    text-align: center;
+}
+
+.container61-main-konten{
+    width: 85%;
+    margin: 1.5vw auto;
+}
+
+
+
+/* 
+#5CA54D
+#3E4F3F
+#FF3867
+#6ECB63 
+*/
+
+  .container66 {
+      width: 89%;
+      margin: auto;
+      margin-top: 2vw;
+  }
+
+  .container67 {
+    width: 97%;
+    margin: auto;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+    
+  .container67-card {
+    width: 15rem;
+    border: 1px solid #5CA54D;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    border-radius: 7px;
+    margin: 1vw;
+    height: 24vw;
+  }
+
+  .container68 {
+      width: 95%;
+  }
+
+  .head-h2{
+    font-family: "Nunito", sans-serif;
+    font-size: 1.7vw;
+  }
+
+  .container-card-img{
+    width: 100%;
+    border-radius: 7px 7px 0 0;
+  }
+
+  .container69 {
+      width: 100%;
+  }
+
+  .continer71{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container300{
+    height: 90.4vh;
+    margin-top: 4.6vw;
+    position: fixed;
+    width: 39vw;
+    display: flex;
+    background: #DDE3E1;
+    justify-content: center;
+    font-family: "Nunito", sans-serif;
+    border-radius: 20px;
+  }
+
+  .container300-h1{
+    font-size: 2vw;
+    margin-top: 1vw;
+  }
+
+  .container300-h2{
+    margin-top: 0.7vw;
+    font-size: 1.3vw;
+  }
+
+  .deskripsi-obat, .efek-samping{
+    margin-top: 0.4vw;
+    font-size: 1vw;
+  }
+
+  .container300 .container305 .container301{
+    width: 75%;
+  }
+
+  .container301-img{
+    width: 100%;
+    display: block;
+    margin-left: 5vw;
+  }
+
+  .container308{
+    position: absolute;
+    margin-left: 32vw;
+    margin-top: 2vw;
+  }
+
+  .container308:hover{
+    cursor: pointer;
+  }
+
+  .container305{
+    width: 30%;
+    height: 80vh;
+    position: fixed;
+    margin-top: 3vw;
+    overflow: auto;
+  }
+
+  .containercard7-p-small{
+    font-size: .7vw;
+  }
+
+  .body-p{
+    font-size: 1vw;
+  }
+  
+  .container7-button{
+    color: black;
+    padding: 0.7vw 2.5vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1vw;
+    margin: 4px 2px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #5CA54D;
+    background-color: white;
+  }
+
+  .container7-button:hover{
+    background-color: #5CA54D;
+    color: #fff;
+  }
+
+  .head {
+      padding-bottom: 1vw;
+  }
+
+  .body {
+      padding-bottom: 1vw;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #5CA54D;
+    border-radius: 11px;
+  }
+  
+  .button:hover {
+    background-color: #5CA54D;
+    color: white;
+  }
+
+
+
+
+

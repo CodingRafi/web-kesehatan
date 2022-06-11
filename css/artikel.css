@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.alert{
+    height: 4vw;
+    background: #DDE3E1;
+    width: 95%;
+    margin: 1vw auto;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #3E4F3F;
+    display: none;
+    transition: 0.5s;
+}
+
+@media(max-width:480px){
+    .alert.tidakDitemukan{
+        display: flex;
+        padding: 3vw 0;
+    }
+
+    .kalimat{
+        padding-bottom: 0 2vw;
+    }
+
+    .kalimat .kalimat-h1{
+        font-size: 3vw;
+    }
+
+    .silang-svg{
+        margin-left: -4vw;
+    }
+}
+
+.alert.tidakDitemukan{
+    display: flex;
+}
+
+.kalimat{
+    padding: 0 2vw;
+}
+
+.kalimat-h1{
+    font-size: 1.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.silang{
+    width: 4vw;
+}
+
+.silang:hover{
+    cursor: pointer;
+}
+
+.main2{
+    height: 100vh;
+}
+
+.main2.hilang2{
+    display: none;
+}
+
+.main2 .container9{
+    width: 93vw;
+    padding-top: 7vw;
+    margin: auto;
+    height: 100vh;
+}
+
+.container8-bung-input{
+    width: 80vw;
+    height: 2.5vw;
+    border: 1px solid #999898;
+    border-radius: 0.3vw;
+    padding: 0.1vw 0.5vw;
+}
+
+.container8-bung-input:focus{
+    border: 1px solid #999898;
+}
+
+.container8-button{
+    border: none;
+    padding: 0.6vw 2vw;
+    border-radius: 0.5vw;
+    color: #fff;
+    background: #6ECB63;
+    margin-left: 0.8vw;
+}
+
+.container8-button:hover{
+    cursor: pointer;
+}
+
+.container8-bung{
+    display: flex;
+    justify-content: center;
+}
+
+.container9-text-nav{
+    width: 89vw;
+    margin: auto;
+}
+
+.container20{
+    display: flex;
+    height: 25vw;
+}
+
+.container21{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.container23{
+    background: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-radius: 0.5vw;
+    background-position-y: -10vw;
+}
+
+.container23:hover{
+    cursor: pointer;
+}
+
+.container24{
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.container24-h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    color: #ffffff;
+    padding: 1.5vw 2vw;
+    text-align: center;
+}
+
+.container22{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.container25{
+    width: 90%;
+}
+
+.container26{
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5vw 0;
+    border-bottom: 1px solid #838282;
+    padding-bottom: .6vw;
+    border-radius: 0;
+}
+
+.container26-img{
+    width: 30%;
+}
+
+.container26-img-img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.container26-text-h1{
+    font-size: 1.2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #646262;
+}
+
+.container26-text-h1:hover{
+    cursor: pointer;
+}
+
+.container26-text{
+    width: 67%;
+    display: flex;
+    align-items: center;
+}
+
+.sub-links{
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+}
+
+.sub-links-ul{
+    list-style: none;
+    display: flex;
+    margin: 0.5vw 0;
+}
+
+.sub-links-li{
+    margin: 0px 1.5vw 0 0;
+    font-size: 1vw;
+}
+
+.sub-links-a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(114, 114, 114);
+}
+
+.sub-links-a.aktip{
+    color: #000;
+    font-weight: 500;
+}
+
+.container9-main-konten{
+    width: 89vw;
+    margin: 1.5vw auto;
+}
+
+.container9-main-konten2{
+    width: 89vw;
+    margin: 1.5vw auto;
+}
+
+.container11{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vw 0;
+}
+
+.container12{
+    box-sizing: border-box;
+    width: 17rem;
+    box-shadow: 0px 0px 5px rgb(193 190 190);
+    border-radius: 10px;
+    margin: 0 0.5vw 1vw 0.5vw;
+    height: 23vw;
+}
+
+.container13{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.container13-img{
+    border-radius: 0.8vw 0.8vw 0 0;
+    width: 100%;
+    padding: 0vw 0vw;
+}
+
+.container14{
+    width: 90%;
+    margin: auto;
+    margin-top: 0.5vw;
+}
+
+.container14-h2{    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+    color: #282727;
+}
+
+.container14-h2:hover{
+    cursor: pointer;
+}
+
+.container14-p{
+    font-family: 'Nunito', sans-serif;
+    font-size: .9vw;
+    text-align: justify;
+    padding: 0.5vw 0;
+    font-weight: 700;
+    color: #3e3b3b;
+}
+
+.container14-button{
+    margin: 1vw auto;
+    display: block;
+    background: #0077FF;
+    border: none;
+    padding: 0.5vw 3vw;
+    color: #fff;
+    border-radius: 0.3vw;
+}
+
+@media (max-width:480px){
+    .main2 .container9{
+        padding-top: 14vw;
+    }
+
+    .main2 .container9 .container9-text-nav{
+        padding-top: 3vw;
+        border-top: 1px solid #000;
+    }
+
+    .main2 .container9 .container9-text-nav .container8-bung .container8-bung-input{
+        height: 7vw;
+        font-size: 2.5vw;
+        padding: 0 3vw;
+    }
+
+    .main2 .container9 .container9-text-nav .sub-links{
+        width: 33vw;
+    }
+
+    .main2 .container9 .container9-text-nav .sub-links .sub-links-ul{
+        padding: 1vw 0;
+    }
+
+    .main2 .container9 .container9-text-nav .sub-links .sub-links-ul .sub-links-li{
+        font-size: 3vw;
+    }
+
+    .main2 .container9 .container9-main-konten .container20{
+        display: block;
+    }
+
+    .main2 .container9 .container9-main-konten .container20 .container21{
+        width: 100%;
+        height: 100%;
+    }
+
+    .main2 .container9 .container9-main-konten .container20 .container22{
+        width: 100%;
+        padding-top: 19vw;
+    }
+
+    .main2 .container9 .container9-main-konten .container20 .container23{
+        height: 42vw;
+    }
+
+    .main2 .container9 .container9-main-konten .container20  .container23 .container24 .container24-h1{
+        font-size: 3vw;
+        padding: 3vw 0;
+    }
+
+    .main2 .container9 .container9-main-konten .container20 .container22 .container25{
+        width: 100%;
+    }
+
+    .main2 .container9 .container9-main-konten .container20 .container22 .container25 .container26{
+        height: 13vw;
+        border-bottom: 1px solid #838282;
+        padding-bottom: 1vw;
+        padding-top: 2vw;
+    }
+
+    .main2 .container9 .container9-main-konten .container20 .container22 .container25 .container26 .container26-img{
+        width: 20%;
+    }
+
+    .main2 .container9 .container9-main-konten .container20 .container22 .container25 .container26 .container26-img .container26-img-img{
+        height: 98%;
+    }
+
+    .main2 .container9 .container9-main-konten .container20 .container22 .container25 .container26 .container26-text{
+        width: 77%;
+    }
+
+    .main2 .container9 .container9-main-konten .container20 .container22 .container25 .container26 .container26-text .container26-text-h1 {
+        font-size: 3vw;
+    }
+
+    .main2 .container9 .container9-main-konten .container11{
+        padding-top: 86vw;
+    }
+
+    .main2 .container9 .container9-main-konten .container11 .container12{
+        display: flex;
+        width: 100%;
+        box-shadow: none;
+        height: auto;
+        border-bottom: 1px solid #838282;
+        padding-bottom: 1vw;
+        border-radius: 0;
+    }
+
+    .main2 .container9 .container9-main-konten .container11 .container12 .container13{     
+        width: 20%;
+        display: block;
+    }
+
+    .main2 .container9 .container9-main-konten .container11 .container12 .container13 .container13-img{
+        width: 100%;
+        border-radius: 4px; 
+    }
+
+    .main2 .container9 .container9-main-konten .container11 .container12 .container14{
+        width: 75%;
+        display: flex;
+        height: 90%;
+        align-items: center;
+    }
+
+    .main2 .container9 .container9-main-konten .container11 .container12 .container14 .container14-h2{
+        font-size: 3vw;
+        font-weight: 600;
+        color: #646262;
+    }
+
+    .main2 .container9 .container9-main-konten .container11 .container12 .container14 .container14-p{
+        display: none;
+    }
+}

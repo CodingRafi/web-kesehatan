@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main20.hilang4 {
+  display: none;
+}
+
+.navbar.navHilang {
+  display: none;
+}
+
+.main20 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dde3e1;
+}
+
+.container221 {
+  position: absolute;
+  margin-top: -40vw;
+  margin-right: 90vw;
+}
+
+.container40 {
+  width: 85vw;
+  height: 85vh;
+}
+
+.container41 {
+  height: 14%;
+  text-align: center;
+  line-height: 6vw;
+  font-family: "Nunito", sans-serif;
+  color: #3e4f3f;
+}
+
+.container41-h1 {
+  font-size: 4vw;
+}
+
+.container42 {
+  height: 85%;
+  width: 100%;
+  margin: auto;
+  padding-top: 1vw;
+}
+
+.container43 {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  padding: 1vw;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 2vw;
+}
+
+.main20 .container40 .container42 .container43 .container44 {
+  width: 37%;
+  font-family: "Nunito", sans-serif;
+  padding: 2vw;
+  box-sizing: border-box;
+  background: #6ecb63;
+  border-radius: 1.5vw;
+  overflow: hidden;
+}
+
+.container44 .container44-h1 {
+  font-size: 2vw;
+  color: #fff;
+}
+
+.container48 .email {
+  margin-left: 0.5vw;
+}
+
+.container44 .container44-p {
+  font-size: 1vw;
+  color: #fff;
+  margin: 0.3vw 0;
+}
+
+.container49 {
+  width: 60%;
+}
+
+.container45 {
+  height: 10vw;
+  width: 100%;
+}
+
+.container46 {
+  display: flex;
+  width: 75%;
+}
+
+.container51 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18vw;
+}
+
+.container48 {
+  display: flex;
+  align-items: center;
+}
+
+.container45 .container46 .container47 {
+  width: 15%;
+  display: flex;
+  padding: 0.5vw;
+}
+
+.container43 .container44 .container45 .container50 {
+  height: 40%;
+  width: 100%;
+}
+
+.container48 .container48-h1 {
+  font-size: 1.1vw;
+  color: #fff;
+  font-weight: 400;
+}
+
+.container55 {
+  height: 8vw;
+}
+
+.container56:hover {
+  background: #fff;
+}
+
+.container57 {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+}
+
+.container55 .container57 .container56 {
+  margin: 0 0.9vw;
+  padding: 0.6vw;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container56-a {
+  display: flex;
+  justify-content: center;
+}
+
+.container56-svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* .container58{
+    clip-path: circle(50% at 50% 50%);
+    background: cyan;
+    position: absolute;
+} */
+
+/* input */
+.container200 {
+  display: flex;
+  height: 50%;
+  margin-top: 2vw;
+}
+
+.container202 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container203 {
+  width: 50%;
+}
+
+.container201 {
+  height: 49%;
+}
+
+.container202InputBox {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  position: relative;
+  width: 85%;
+  margin-top: 10px;
+}
+
+.container202InputBox .input-first-name,
+.container202InputBox .input-email,
+.container201-textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  border: none;
+  margin: 10px 0;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2vw;
+}
+
+.inp {
+  margin-top: -2vw;
+}
+
+.inp2 {
+  margin-top: 1vw;
+}
+
+.container202InputBox .span-first-name {
+  margin-top: 0.6vw;
+}
+
+.container201-span {
+  position: absolute;
+}
+
+.container201-textarea {
+  margin-top: 2vw;
+  width: 100%;
+  height: 4vw;
+}
+
+.container205 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -2vw;
+}
+
+.container49 .container205 .container202-button {
+  color: #fff;
+  background: #6ecb63;
+  border: none;
+  padding: 1vw 2vw;
+  border-radius: 4px;
+}
+
+.container201 {
+  height: 35%;
+  width: 92%;
+  margin: auto;
+  margin-top: -3vw;
+}
+
+.container202InputBox .span-first-name,
+.container202InputBox .span-email {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #000;
+  font-size: 12px;
+  transform: translateY(-20px);
+  font-family: "Nunito", sans-serif;
+}
+
+.container202InputBox .span-email {
+  margin-top: 0.5vw;
+}
+
+.container201-span {
+  font-family: "Nunito", sans-serif;
+}
+
+
+@media(max-width:480px){
+    .container41-h1{
+        font-size: 14vw;
+    }
+
+    .container43{
+        display: block;
+    }
+
+    .main20 .container40 .container42 .container43 .container44{
+        width: 100%;
+        height: 55%;
+    }
+
+    .container49{
+        width: 100%;
+        margin-top: 10vw;
+    }
+
+    .container55{
+        margin-top: 28vw;
+    }
+
+    .container57{
+        margin-top: -5vw;
+    }
+
+    .container202InputBox .input-first-name, .container202InputBox .input-email, .container201-textarea{
+        font-size: 2vw;
+    }
+
+    .container201-textarea{
+        margin-top: 5vw;
+    }
+
+    .container202InputBox .span-first-name, .container202InputBox .span-email{
+        font-size: 2.5vw;
+    }
+
+    .container51{
+        margin: 5vw 0;
+        height: auto;
+    }
+
+    .container42{
+        margin-top: -7vw;
+    }
+
+    .container48 .container48-h1{
+        font-size: 3.5vw;
+    }
+
+    .container44 .container44-h1{
+        font-size: 5.5vw;
+    }
+
+    .container43 .container44 .container45 .container50{
+        margin: 4vw 0;
+    }
+
+    .container44 .container44-p{
+        font-size: 3.5vw;
+    }
+
+    .container50{
+        margin: 3vw 0;
+    }
+
+    .container221{
+        position: absolute;
+        margin-top: -157vw;
+        margin-right: 85vw;
+    }
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main3.hilang3{
+    display: none;
+}
+
+.main3-button{
+    color: #fff;
+    background: #6ECB63;
+    border: none;
+    padding: 0.8vw 1.8vw;
+    border-radius: 4px;
+    font-size: 1.3vw;
+    margin-top: -11vw;
+    margin-left: 69vw;
+    position: absolute;
+    cursor: pointer;
+}
+
+.main3{
+    background: #DDE3E1;
+}
+
+.container230{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.subartikel-artikel{
+    background: #fff;
+    padding: 3vw;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.container15{
+    width: 70vw;
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+    padding: 7vw 4vw;
+    box-sizing: border-box;
+    color: #3E4F3F;
+}
+
+.container16{
+    border: 1px solid #3E4F3F;
+    padding: 4vw;
+}
+
+.container-img-artikel{
+    width: 50%;
+    margin: 2vw auto;
+}
+
+.container-img-artikel-img{
+    width: 100%;
+}
+
+.judul-artikel{
+    font-size: 3vw;
+}
+
+.pencipta{
+    font-size: 1.2vw;
+}
+
+.subJudul{
+    margin-top: 1vw;
+}
+
+.paragraf{
+    text-indent: 3vw;
+    margin-top: 1vw;
+    font-size: 1.3vw;
+}
+
+@media(max-width:480px){
+    .container15{
+        width: 100vw;
+    }
+
+    .subartikel-artikel{
+        margin-top: 15vw;
+    }
+
+    .judul-artikel{
+        font-size: 6vw;
+    }
+
+    .pencipta{
+        font-size: 3vw;
+    }
+
+    .container-img-artikel{
+        width: 100%;
+        margin: 5vw 0;
+    }
+
+    .paragraf{
+        font-size: 4vw;
+        margin: 5vw 0;
+    }
+
+    .li-arikel{
+        margin-left: 4vw;
+    }
+
+    .main3-button{
+        padding: 2vw 5vw;
+        font-size: 5vw;
+        margin-top: -70px;
+    }
+}
